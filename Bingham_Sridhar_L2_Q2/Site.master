@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title>Bingham/Sridhar Lab 2 Question 2</title>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="css/bootstrap.css" rel="Stylesheet" type="text/css" />
+    <link href="css/bootstrap-responsive.css" rel="Stylesheet" type="text/css" />
+
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <div class="well">
+                    Bingham/Sridhar Lab 2 Question 2
+                </div>
+            </div>
+            <div class="clear hideSkiplink">
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <ul class="nav">
+                            <li><a href="Login.aspx">Login</a></li>
+                            <li><a href="ForgotPassword.aspx">Forgot Password</a></li>
+                            <li><a href="Register.aspx">Register</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="main"  style="border-left:50px">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        <h4>@copyright Bingham/Sridhar incorporated</h4>
+    </div>
+
+    <script src="js/jquery-1.9.0.js" type="text/javascript"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+
+    </form>
+</body>
+</html>
