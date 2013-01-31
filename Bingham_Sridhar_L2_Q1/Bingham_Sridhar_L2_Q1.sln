@@ -45,6 +45,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Bingham_Sridhar_L2_Q3", "Bi
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bingham_Sridhar_L2_Q4", "Bingham_Sridhar_L2_Q4\Bingham_Sridhar_L2_Q4.csproj", "{F3ACD84F-A5A1-4BC6-8FE0-8D70F0A2F430}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{9A1F91E0-7AB3-4CE1-8F84-176182C2CB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A1F91E0-7AB3-4CE1-8F84-176182C2CB21}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{9A1F91E0-7AB3-4CE1-8F84-176182C2CB21}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F3ACD84F-A5A1-4BC6-8FE0-8D70F0A2F430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3ACD84F-A5A1-4BC6-8FE0-8D70F0A2F430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3ACD84F-A5A1-4BC6-8FE0-8D70F0A2F430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3ACD84F-A5A1-4BC6-8FE0-8D70F0A2F430}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
