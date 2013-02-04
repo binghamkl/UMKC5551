@@ -1,0 +1,113 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Bingham_Sridhar_Dash_L2_Q3", "Bingham_Sridhar_Dash_L2_Q3\", "{9A1F91E0-7AB3-4CE1-8F84-176182C2CB21}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Bingham_Sridhar_Dash_L2_Q3"
+		Debug.AspNetCompiler.PhysicalPath = "Bingham_Sridhar_Dash_L2_Q3\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Bingham_Sridhar_Dash_L2_Q3\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Bingham_Sridhar_Dash_L2_Q3"
+		Release.AspNetCompiler.PhysicalPath = "Bingham_Sridhar_Dash_L2_Q3\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Bingham_Sridhar_Dash_L2_Q3\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59179"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Bingham_Sridhar_Dash_L2_Q2", "Bingham_Sridhar_Dash_L2_Q2\", "{29E17FAB-4927-4309-972F-913533DF996B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Bingham_Sridhar_Dash_L2_Q2"
+		Debug.AspNetCompiler.PhysicalPath = "Bingham_Sridhar_Dash_L2_Q2\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Bingham_Sridhar_Dash_L2_Q2\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Bingham_Sridhar_Dash_L2_Q2"
+		Release.AspNetCompiler.PhysicalPath = "Bingham_Sridhar_Dash_L2_Q2\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Bingham_Sridhar_Dash_L2_Q2\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61171"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Bingham_Sridhar_Dash_L2_Q1", "Bingham_Sridhar_Dash_L2_Q1\", "{8806B0DF-F824-4606-8D46-DE07E5456245}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Bingham_Sridhar_Dash_L2_Q1"
+		Debug.AspNetCompiler.PhysicalPath = "Bingham_Sridhar_Dash_L2_Q1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Bingham_Sridhar_Dash_L2_Q1\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Bingham_Sridhar_Dash_L2_Q1"
+		Release.AspNetCompiler.PhysicalPath = "Bingham_Sridhar_Dash_L2_Q1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Bingham_Sridhar_Dash_L2_Q1\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61286"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Bingham_Sridhar_Dash_L2_Q4", "Bingham_Sridhar_Dash_L2_Q4\", "{A31BE384-DF71-4FF2-B833-26346615364B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Bingham_Sridhar_Dash_L2_Q4"
+		Debug.AspNetCompiler.PhysicalPath = "Bingham_Sridhar_Dash_L2_Q4\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Bingham_Sridhar_Dash_L2_Q4\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Bingham_Sridhar_Dash_L2_Q4"
+		Release.AspNetCompiler.PhysicalPath = "Bingham_Sridhar_Dash_L2_Q4\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Bingham_Sridhar_Dash_L2_Q4\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61547"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A1F91E0-7AB3-4CE1-8F84-176182C2CB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A1F91E0-7AB3-4CE1-8F84-176182C2CB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A1F91E0-7AB3-4CE1-8F84-176182C2CB21}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A1F91E0-7AB3-4CE1-8F84-176182C2CB21}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{29E17FAB-4927-4309-972F-913533DF996B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E17FAB-4927-4309-972F-913533DF996B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E17FAB-4927-4309-972F-913533DF996B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E17FAB-4927-4309-972F-913533DF996B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8806B0DF-F824-4606-8D46-DE07E5456245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8806B0DF-F824-4606-8D46-DE07E5456245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8806B0DF-F824-4606-8D46-DE07E5456245}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8806B0DF-F824-4606-8D46-DE07E5456245}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A31BE384-DF71-4FF2-B833-26346615364B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31BE384-DF71-4FF2-B833-26346615364B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31BE384-DF71-4FF2-B833-26346615364B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31BE384-DF71-4FF2-B833-26346615364B}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

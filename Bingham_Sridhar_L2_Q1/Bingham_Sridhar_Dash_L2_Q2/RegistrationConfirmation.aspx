@@ -10,39 +10,27 @@
             <table>
                 <tr>
                     <td>Name :</td>
-                    <td>
-                        <asp:Label ID="lblName" runat="server"></asp:Label>
-                     </td>
+                    <td><asp:Label ID="lblName" runat="server"></asp:Label></td>
                 </tr>
                 <tr>
                     <td>Email: </td>
-                    <td>
-                        <asp:Label ID="lblEmail" runat="server"></asp:Label>
-                    </td>
+                    <td><asp:Label ID="lblEmail" runat="server"></asp:Label></td>
                 </tr>
                 <tr>
                     <td>Password:</td>
-                    <td>
-                        <asp:Label ID="lblPassword" runat="server"></asp:Label>
-                    </td>
+                    <td><asp:Label ID="lblPassword" runat="server"></asp:Label></td>
                 </tr>
                 <tr>
                     <td>Gender: </td>
-                    <td>
-                        <asp:Label ID="lblGender" runat="server"></asp:Label>
-                    </td>
+                    <td><asp:Label ID="lblGender" runat="server"></asp:Label></td>
                 </tr>
                 <tr>
                     <td>Phone No:</td>
-                    <td>
-                        <asp:Label ID="lblPhoneNo" runat="server"></asp:Label>
-                    </td>
+                    <td><asp:Label ID="lblPhoneNo" runat="server"></asp:Label></td>
                 </tr>
                 <tr>
                     <td>Subscribe To:</td>
-                    <td>
-                        <asp:Label ID="lblSubscribeTo" runat="server"></asp:Label>
-                    </td>
+                    <td><asp:Label ID="lblSubscribeTo" runat="server"></asp:Label></td>
                 </tr>
             </table>
             
