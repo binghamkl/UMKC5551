@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestLists xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestList name="MagazineSubscriptionTest" id="6005b565-7adb-42ee-9495-671d382b3b60" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <Description>This is my list of tests</Description>
+  </TestList>
+  <TestList name="Lists of Tests" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6" />
+</TestLists>

@@ -1,0 +1,12 @@
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\bin\Debug\Sridhar_Bingham_L3_Q2.dll
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\bin\Debug\Sridhar_Bingham_L3_Q2.pdb
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\bin\Debug\nunit.framework.dll
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\bin\Debug\nunit.framework.xml
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\obj\Debug\Sridhar_Bingham_L3_Q2.dll
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\obj\Debug\Sridhar_Bingham_L3_Q2.pdb
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\bin\Debug\Sridhar_Bingham_L3_Q2.dll
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\bin\Debug\Sridhar_Bingham_L3_Q2.pdb
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\bin\Debug\nunit.framework.dll
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\bin\Debug\nunit.framework.xml
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\obj\Debug\Sridhar_Bingham_L3_Q2.dll
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\obj\Debug\Sridhar_Bingham_L3_Q2.pdb
