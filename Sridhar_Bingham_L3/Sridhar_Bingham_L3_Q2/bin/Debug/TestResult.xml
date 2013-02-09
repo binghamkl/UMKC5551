@@ -1,15 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\bin\Debug\Sridhar_Bingham_L3_Q2.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-02-07" time="23:11:43">
+<test-results name="C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\bin\Debug\Sridhar_Bingham_L3_Q2.dll" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-02-09" time="17:11:27">
   <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.6400" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.2\bin" machine-name="KBINGHAM" user="KBingham" user-domain="KRYGER" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\bin\Debug\Sridhar_Bingham_L3_Q2.dll" executed="True" result="Success" success="True" time="0.083" asserts="0">
+  <test-suite type="Assembly" name="C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\bin\Debug\Sridhar_Bingham_L3_Q2.dll" executed="True" result="Success" success="True" time="0.096" asserts="0">
     <results>
-      <test-suite type="Namespace" name="Sridhar_Bingham_L3_Q2" executed="True" result="Success" success="True" time="0.061" asserts="0">
+      <test-suite type="Namespace" name="Sridhar_Bingham_L3_Q2" executed="True" result="Success" success="True" time="0.073" asserts="0">
         <results>
-          <test-suite type="TestFixture" name="MagazineSubscriptionFixture" executed="True" result="Success" success="True" time="0.059" asserts="0">
+          <test-suite type="TestFixture" name="MagazineSubscriptionFixture" executed="True" result="Success" success="True" time="0.071" asserts="0">
             <results>
-              <test-case name="Sridhar_Bingham_L3_Q2.MagazineSubscriptionFixture.TestCreationOfMagazineSubscription" executed="True" result="Success" success="True" time="0.037" asserts="1" />
+              <test-case name="Sridhar_Bingham_L3_Q2.MagazineSubscriptionFixture.MagazineSubscriptionAcceptsNameAddressInformation" executed="True" result="Success" success="True" time="0.037" asserts="6" />
+              <test-case name="Sridhar_Bingham_L3_Q2.MagazineSubscriptionFixture.SubmitMagazineSubscriptionSavesInformationIntoSubscriptions" executed="True" result="Success" success="True" time="0.011" asserts="1" />
+              <test-case name="Sridhar_Bingham_L3_Q2.MagazineSubscriptionFixture.TestCreationOfMagazineSubscription" executed="True" result="Success" success="True" time="0.000" asserts="1" />
             </results>
           </test-suite>
         </results>
