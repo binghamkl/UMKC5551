@@ -75,6 +75,7 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <None Include="Web References\AccountDeposit\AccountService.disco" />
+    <Content Include="TimerPostBack.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -128,6 +129,13 @@
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="TimerPostBack.aspx.cs">
+      <DependentUpon>TimerPostBack.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TimerPostBack.aspx.designer.cs">
+      <DependentUpon>TimerPostBack.aspx</DependentUpon>
     </Compile>
     <Compile Include="Web References\AccountDeposit\Reference.cs">
       <AutoGen>True</AutoGen>

@@ -28,6 +28,9 @@
                         <asp:Timer ID="uxTimer" runat="server" Interval="1000" ontick="uxTimer_Tick" ></asp:Timer>
                         <asp:Label ID="uxTime" runat="server"></asp:Label>
                     </ContentTemplate>
+                    <Triggers>
+                        <asp:AsyncPostBackTrigger ControlID="uxTimer" />
+                    </Triggers>
                 </asp:UpdatePanel>
             </div>
             <div class="clear hideSkiplink">
@@ -38,6 +41,9 @@
                   </li>
                   <li class="active">
                     <a href="/Extreme.aspx">Extreme Ajax</a>
+                  </li>
+                  <li class="active">
+                    <a href="/TimerPostBack.aspx">Extreme Ajax</a>
                   </li>
                 </ul>
             </div>

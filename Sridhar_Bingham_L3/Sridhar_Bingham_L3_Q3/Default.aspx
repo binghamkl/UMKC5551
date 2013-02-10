@@ -7,6 +7,9 @@
     <div class="hero-unit">
         This example uses the webservice we created in Question 1 of Lab 3.  The webserver is on our cloud server at
         http://vhost1693.site1.compute.ihost.com/lab3/AccountService.asmx
+        <p>
+            Valid logins are kbingham and vsridhar
+        </p>
     </div>
     <div class="help-block">
       <div class="row-fluid">
@@ -33,12 +36,13 @@
         </div>
         <div class="span5">
             This side uses Ajax to post back
-            <asp:UpdatePanel ID="uxUpdatePanel" runat="server">
+            <asp:TextBox ID="uxUserNameAjax" runat="server" placeholder="UserName"></asp:TextBox>
+            <asp:TextBox ID="uxDepositAjax" runat="server" placeholder="Deposit"></asp:TextBox>
+            <asp:Button ID="uxDepositAmountAjax" runat="server" CssClass="btn" 
+                Text="Deposit into account" onclick="uxDepositAmountAjax_Click" />
+
+            <asp:UpdatePanel ID="uxUpdatePanel" runat="server" >
                 <ContentTemplate>
-                    <asp:TextBox ID="uxUserNameAjax" runat="server" placeholder="UserName"></asp:TextBox>
-                    <asp:TextBox ID="uxDepositAjax" runat="server" placeholder="Deposit"></asp:TextBox>
-                    <asp:Button ID="uxDepositAmountAjax" runat="server" CssClass="btn" 
-                        Text="Deposit into account" onclick="uxDepositAmountAjax_Click" />
 
                     <table class="table table-bordered table-hover">
                         <tr>
@@ -56,6 +60,9 @@
                     </table>
 
                 </ContentTemplate>
+                <Triggers>
+                    <asp:AsyncPostBackTrigger ControlID="uxDepositAmountAjax" />
+                </Triggers>
             </asp:UpdatePanel>
         </div>
       </div>
