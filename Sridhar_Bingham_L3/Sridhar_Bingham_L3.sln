@@ -28,6 +28,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Sridhar_Bingham_L3_Q1", "Sr
 		VWDPort = "51648"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sridhar_Bingham_L3_Q3", "Sridhar_Bingham_L3_Q3\Sridhar_Bingham_L3_Q3.csproj", "{298E58E9-8665-438B-A662-4E59FE9675A4}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Sridhar_Bingham_L3.vsmdi
@@ -45,6 +47,10 @@ Global
 		{C186E391-896B-4382-B504-C1293FA3EA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C186E391-896B-4382-B504-C1293FA3EA95}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{C186E391-896B-4382-B504-C1293FA3EA95}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{298E58E9-8665-438B-A662-4E59FE9675A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298E58E9-8665-438B-A662-4E59FE9675A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298E58E9-8665-438B-A662-4E59FE9675A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298E58E9-8665-438B-A662-4E59FE9675A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

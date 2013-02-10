@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="DepositIntoAccount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Amount" type="s:decimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DepositIntoAccountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DepositIntoAccountResult" type="tns:Deposit" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Deposit">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Results">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Amount" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="TransactionMessage" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Results" abstract="true">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Success" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Error" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="DepositIntoAccountSoapIn">
+    <wsdl:part name="parameters" element="tns:DepositIntoAccount" />
+  </wsdl:message>
+  <wsdl:message name="DepositIntoAccountSoapOut">
+    <wsdl:part name="parameters" element="tns:DepositIntoAccountResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AccountServiceSoap">
+    <wsdl:operation name="DepositIntoAccount">
+      <wsdl:input message="tns:DepositIntoAccountSoapIn" />
+      <wsdl:output message="tns:DepositIntoAccountSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AccountServiceSoap" type="tns:AccountServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DepositIntoAccount">
+      <soap:operation soapAction="http://tempuri.org/DepositIntoAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AccountServiceSoap12" type="tns:AccountServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DepositIntoAccount">
+      <soap12:operation soapAction="http://tempuri.org/DepositIntoAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AccountService">
+    <wsdl:port name="AccountServiceSoap" binding="tns:AccountServiceSoap">
+      <soap:address location="http://vhost1693.site1.compute.ihost.com/lab3/AccountService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AccountServiceSoap12" binding="tns:AccountServiceSoap12">
+      <soap12:address location="http://vhost1693.site1.compute.ihost.com/lab3/AccountService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

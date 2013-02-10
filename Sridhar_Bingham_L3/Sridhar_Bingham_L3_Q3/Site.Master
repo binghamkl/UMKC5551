@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Sridhar_Bingham_L3_Q3.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <form runat="server">
+    <asp:ScriptManager ID="uxScriptManager" runat="server"></asp:ScriptManager>
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    Sridhar - Bingham Lab 3 Question 3
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:UpdatePanel ID="GetTime" runat="server">
+                    <ContentTemplate>
+                        <asp:Timer ID="uxTimer" runat="server" Interval="1000" ontick="uxTimer_Tick" ></asp:Timer>
+                        <asp:Label ID="uxTime" runat="server"></asp:Label>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+            </div>
+            <div class="clear hideSkiplink">
+
+                <ul class="nav nav-tabs">
+                  <li class="active">
+                    <a href="/Default.aspx">Home</a>
+                  </li>
+                  <li class="active">
+                    <a href="/Extreme.aspx">Extreme Ajax</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        &copy Sridhar/Bingham Incorporated
+    </div>
+    </form>
+</body>
+</html>
