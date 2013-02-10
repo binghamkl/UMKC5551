@@ -1,4 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <publishData>
-  <publishProfile publishUrl="c:\inetpub\wwwroot\L3Q3" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True" />
+  <publishProfile publishUrl="C:\Users\kbingham\Documents\umkc\CS5551\Lab3\iis" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Extreme.aspx" publishTime="02/09/2013 21:41:37" />
+    <file relUrl="css/bootstrap.min.css" publishTime="02/09/2013 20:48:19" />
+    <file relUrl="TimerPostBack.aspx" publishTime="02/10/2013 13:47:28" />
+    <file relUrl="Site.Master" publishTime="02/10/2013 14:21:54" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="02/09/2013 20:36:57" />
+    <file relUrl="css/bootstrap.css" publishTime="02/09/2013 20:48:19" />
+    <file relUrl="bin/Sridhar_Bingham_L3_Q3.dll" publishTime="02/10/2013 13:59:55" />
+    <file relUrl="css/Site.css" publishTime="02/09/2013 20:48:19" />
+    <file relUrl="css/bootstrap-responsive.css" publishTime="02/09/2013 20:48:19" />
+    <file relUrl="img/glyphicons-halflings-white.png" publishTime="02/09/2013 20:49:34" />
+    <file relUrl="Styles/Site.css" publishTime="02/09/2013 20:36:57" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="02/09/2013 20:36:57" />
+    <file relUrl="js/jquery-1.9.0.js" publishTime="02/09/2013 20:49:51" />
+    <file relUrl="js/jquery-1.9.0.min.js" publishTime="02/09/2013 20:49:51" />
+    <file relUrl="css/bootstrap-responsive.min.css" publishTime="02/09/2013 20:48:19" />
+    <file relUrl="img/glyphicons-halflings.png" publishTime="02/09/2013 20:49:34" />
+    <file relUrl="Web.config" publishTime="02/10/2013 14:00:41" />
+    <file relUrl="Global.asax" publishTime="02/09/2013 20:36:57" />
+    <file relUrl="js/bootstrap.js" publishTime="02/09/2013 20:49:51" />
+    <file relUrl="js/bootstrap.min.js" publishTime="02/09/2013 20:49:51" />
+    <file relUrl="About.aspx" publishTime="02/09/2013 20:36:57" />
+    <file relUrl="Default.aspx" publishTime="02/10/2013 13:55:20" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="02/09/2013 20:36:57" />
+    <file relUrl="bin/Sridhar_Bingham_L3_Q3.pdb" publishTime="02/10/2013 13:59:55" />
+  </publishProfile>
 </publishData>
