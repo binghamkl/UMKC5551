@@ -1,0 +1,4 @@
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Bingham_Sridhar_L4\Bingham_Sridhar_L4_Q2\Bingham_Sridhar_L4_Q2\bin\Bingham_Sridhar_L4_Q2.dll
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Bingham_Sridhar_L4\Bingham_Sridhar_L4_Q2\Bingham_Sridhar_L4_Q2\bin\Bingham_Sridhar_L4_Q2.pdb
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Bingham_Sridhar_L4\Bingham_Sridhar_L4_Q2\Bingham_Sridhar_L4_Q2\obj\Debug\Bingham_Sridhar_L4_Q2.dll
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Bingham_Sridhar_L4\Bingham_Sridhar_L4_Q2\Bingham_Sridhar_L4_Q2\obj\Debug\Bingham_Sridhar_L4_Q2.pdb

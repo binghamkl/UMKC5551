@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
-  <TopNode>[0-1002]C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\bin\Debug\Sridhar_Bingham_L3_Q2.dll</TopNode>
-  <SelectedNode>[0-1001]Sridhar_Bingham_L3_Q2.MagazineSubscriptionFixture.TestCreationOfMagazineSubscription</SelectedNode>
+  <TopNode>[0-1004]C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\bin\Debug\Sridhar_Bingham_L3_Q2.dll</TopNode>
+  <SelectedNode>[0-1000]Sridhar_Bingham_L3_Q2.MagazineSubscriptionFixture</SelectedNode>
   <ExcludeCategories>false</ExcludeCategories>
   <Nodes>
-    <Node UniqueName="[0-1002]C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\bin\Debug\Sridhar_Bingham_L3_Q2.dll" Expanded="true" />
-    <Node UniqueName="[0-1003]Sridhar_Bingham_L3_Q2" Expanded="true" />
+    <Node UniqueName="[0-1004]C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Sridhar_Bingham_L3\Sridhar_Bingham_L3_Q2\bin\Debug\Sridhar_Bingham_L3_Q2.dll" Expanded="true" />
+    <Node UniqueName="[0-1005]Sridhar_Bingham_L3_Q2" Expanded="true" />
     <Node UniqueName="[0-1000]Sridhar_Bingham_L3_Q2.MagazineSubscriptionFixture" Expanded="true" />
   </Nodes>
 </VisualState>

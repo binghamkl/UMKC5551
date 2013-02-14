@@ -1,0 +1,8 @@
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Bingham_Sridhar_L4\TestWebService\bin\Debug\TestWebService.exe.config
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Bingham_Sridhar_L4\TestWebService\bin\Debug\TestWebService.exe
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Bingham_Sridhar_L4\TestWebService\bin\Debug\TestWebService.pdb
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Bingham_Sridhar_L4\TestWebService\obj\x86\Debug\TestWebService.uxForm.resources
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Bingham_Sridhar_L4\TestWebService\obj\x86\Debug\TestWebService.Properties.Resources.resources
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Bingham_Sridhar_L4\TestWebService\obj\x86\Debug\TestWebService.csproj.GenerateResource.Cache
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Bingham_Sridhar_L4\TestWebService\obj\x86\Debug\TestWebService.exe
+C:\Users\kbingham\Documents\Visual Studio 2010\Projects\UMKC5551Group\Bingham_Sridhar_L4\TestWebService\obj\x86\Debug\TestWebService.pdb
