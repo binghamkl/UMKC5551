@@ -29,5 +29,42 @@ namespace Bingham_Sridhar_L4_Q2
         }
         #endregion
 
+        [WebMethod]
+        #region -- LookupOtherMembersFirstNames(String FirstName) Web Method --
+        public String LookupOtherMembersFirstNames(String FirstName)
+        {
+            try
+            {
+                LabSearchResults results = LabSearchResults.LoadOthersExcludingFirstName(FirstName);
+                String returnvalue = String.Empty;
+
+                if (results.LabMembers.Count == 0)
+                    returnvalue = "{none}";
+                else
+                {
+                    if (results.Success)
+                    {
+                        foreach (LabMember labMember in results.LabMembers)
+                        {
+                            if (!string.IsNullOrEmpty(returnvalue))
+                            {
+                                returnvalue += ", ";
+                            }
+                            returnvalue += labMember.FirstName;
+                        }
+                    }
+                    else
+                        returnvalue = string.Format("Error {0} ", results.Error);
+                }
+
+                return returnvalue;
+            }
+            catch (Exception ex)
+            {
+                return String.Format("Error {0}", ex.Message);
+            }
+        }
+        #endregion
+
     }
 }

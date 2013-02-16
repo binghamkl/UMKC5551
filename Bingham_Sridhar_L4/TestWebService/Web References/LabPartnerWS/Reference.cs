@@ -34,6 +34,8 @@ namespace TestWebService.LabPartnerWS {
         
         private System.Threading.SendOrPostCallback LookupByFirstNameOperationCompleted;
         
+        private System.Threading.SendOrPostCallback LookupOtherMembersFirstNamesOperationCompleted;
+        
         private bool useDefaultCredentialsSetExplicitly;
         
         /// <remarks/>
@@ -76,6 +78,9 @@ namespace TestWebService.LabPartnerWS {
         public event LookupByFirstNameCompletedEventHandler LookupByFirstNameCompleted;
         
         /// <remarks/>
+        public event LookupOtherMembersFirstNamesCompletedEventHandler LookupOtherMembersFirstNamesCompleted;
+        
+        /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/LookupByFirstName", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public LabSearchResults LookupByFirstName(string FirstName) {
             object[] results = this.Invoke("LookupByFirstName", new object[] {
@@ -101,6 +106,35 @@ namespace TestWebService.LabPartnerWS {
             if ((this.LookupByFirstNameCompleted != null)) {
                 System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
                 this.LookupByFirstNameCompleted(this, new LookupByFirstNameCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
+        
+        /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/LookupOtherMembersFirstNames", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        public string LookupOtherMembersFirstNames(string FirstName) {
+            object[] results = this.Invoke("LookupOtherMembersFirstNames", new object[] {
+                        FirstName});
+            return ((string)(results[0]));
+        }
+        
+        /// <remarks/>
+        public void LookupOtherMembersFirstNamesAsync(string FirstName) {
+            this.LookupOtherMembersFirstNamesAsync(FirstName, null);
+        }
+        
+        /// <remarks/>
+        public void LookupOtherMembersFirstNamesAsync(string FirstName, object userState) {
+            if ((this.LookupOtherMembersFirstNamesOperationCompleted == null)) {
+                this.LookupOtherMembersFirstNamesOperationCompleted = new System.Threading.SendOrPostCallback(this.OnLookupOtherMembersFirstNamesOperationCompleted);
+            }
+            this.InvokeAsync("LookupOtherMembersFirstNames", new object[] {
+                        FirstName}, this.LookupOtherMembersFirstNamesOperationCompleted, userState);
+        }
+        
+        private void OnLookupOtherMembersFirstNamesOperationCompleted(object arg) {
+            if ((this.LookupOtherMembersFirstNamesCompleted != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.LookupOtherMembersFirstNamesCompleted(this, new LookupOtherMembersFirstNamesCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
             }
         }
         
@@ -346,6 +380,32 @@ namespace TestWebService.LabPartnerWS {
             get {
                 this.RaiseExceptionIfNecessary();
                 return ((LabSearchResults)(this.results[0]));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.0.30319.17929")]
+    public delegate void LookupOtherMembersFirstNamesCompletedEventHandler(object sender, LookupOtherMembersFirstNamesCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.0.30319.17929")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    public partial class LookupOtherMembersFirstNamesCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        internal LookupOtherMembersFirstNamesCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        /// <remarks/>
+        public string Result {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((string)(this.results[0]));
             }
         }
     }

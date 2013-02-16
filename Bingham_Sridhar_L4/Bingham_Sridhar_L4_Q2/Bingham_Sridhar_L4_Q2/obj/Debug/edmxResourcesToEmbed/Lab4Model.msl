@@ -11,5 +11,6 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <FunctionImportMapping FunctionImportName="FetchLabMemberByFirstName" FunctionName="Lab4Model.Store.FetchLabMemberByFirstName" />
+    <FunctionImportMapping FunctionImportName="FetchOtherLabMemberExcludingFirstName" FunctionName="Lab4Model.Store.FetchOtherLabMemberExcludingFirstName" />
   </EntityContainerMapping>
 </Mapping>

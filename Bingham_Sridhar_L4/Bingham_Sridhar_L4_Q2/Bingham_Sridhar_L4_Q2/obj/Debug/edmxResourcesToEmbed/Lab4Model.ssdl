@@ -14,4 +14,7 @@
   <Function Name="FetchLabMemberByFirstName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="FirstName" Type="varchar" Mode="In" />
   </Function>
+  <Function Name="FetchOtherLabMemberExcludingFirstName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="FirstName" Type="varchar" Mode="In" />
+  </Function>
 </Schema>

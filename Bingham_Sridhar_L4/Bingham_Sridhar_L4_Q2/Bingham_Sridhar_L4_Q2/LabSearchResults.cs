@@ -78,6 +78,26 @@ namespace Bingham_Sridhar_L4_Q2
             return result;
 		}
 		#endregion
-		
+
+        #region -- LoadOthersExdludingFirstName(String FirstName) Method --
+        internal static LabSearchResults LoadOthersExcludingFirstName(String FirstName)
+        {
+            LabSearchResults result = new LabSearchResults();
+            try
+            {
+                Lab4Entities labEntity = new Lab4Entities();
+                var LabMemberList = labEntity.FetchOtherLabMemberExcludingFirstName(FirstName);
+                result.LabMembers = LabMemberList.ToList();
+                result.Success = true;
+            }
+            catch (Exception ex)
+            {
+                result.Success = false;
+                result.Error = ex.Message;
+            }
+            return result;
+        }
+        #endregion
+
     }
 }

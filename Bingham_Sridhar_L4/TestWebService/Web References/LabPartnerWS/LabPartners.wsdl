@@ -67,6 +67,20 @@
           <s:element minOccurs="0" maxOccurs="1" name="Value" />
         </s:sequence>
       </s:complexType>
+      <s:element name="LookupOtherMembersFirstNames">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LookupOtherMembersFirstNamesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LookupOtherMembersFirstNamesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
     </s:schema>
   </wsdl:types>
   <wsdl:message name="LookupByFirstNameSoapIn">
@@ -75,10 +89,20 @@
   <wsdl:message name="LookupByFirstNameSoapOut">
     <wsdl:part name="parameters" element="tns:LookupByFirstNameResponse" />
   </wsdl:message>
+  <wsdl:message name="LookupOtherMembersFirstNamesSoapIn">
+    <wsdl:part name="parameters" element="tns:LookupOtherMembersFirstNames" />
+  </wsdl:message>
+  <wsdl:message name="LookupOtherMembersFirstNamesSoapOut">
+    <wsdl:part name="parameters" element="tns:LookupOtherMembersFirstNamesResponse" />
+  </wsdl:message>
   <wsdl:portType name="LabPartnersSoap">
     <wsdl:operation name="LookupByFirstName">
       <wsdl:input message="tns:LookupByFirstNameSoapIn" />
       <wsdl:output message="tns:LookupByFirstNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LookupOtherMembersFirstNames">
+      <wsdl:input message="tns:LookupOtherMembersFirstNamesSoapIn" />
+      <wsdl:output message="tns:LookupOtherMembersFirstNamesSoapOut" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="LabPartnersSoap" type="tns:LabPartnersSoap">
@@ -92,11 +116,29 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="LookupOtherMembersFirstNames">
+      <soap:operation soapAction="http://tempuri.org/LookupOtherMembersFirstNames" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:binding name="LabPartnersSoap12" type="tns:LabPartnersSoap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="LookupByFirstName">
       <soap12:operation soapAction="http://tempuri.org/LookupByFirstName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LookupOtherMembersFirstNames">
+      <soap12:operation soapAction="http://tempuri.org/LookupOtherMembersFirstNames" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>

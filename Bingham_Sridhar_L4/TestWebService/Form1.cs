@@ -52,5 +52,14 @@ namespace TestWebService
         }
         #endregion
 
+        #region -- uxExclude_Click(object sender, EventArgs e) Event Handler --
+        private void uxExclude_Click(object sender, EventArgs e)
+        {
+            LabPartnerWS.LabPartners client = new LabPartnerWS.LabPartners();
+            String results = client.LookupOtherMembersFirstNames(uxFirstName.Text);
+            MessageBox.Show(results);
+        }
+        #endregion
+
     }
 }

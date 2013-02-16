@@ -19,9 +19,6 @@
         <Function Name="FetchLabMemberByFirstName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="FirstName" Type="varchar" Mode="In" />
         </Function>
-        <Function Name="FetchOtherLabMemberExcludingFirstName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-          <Parameter Name="FirstName" Type="varchar" Mode="In" />
-        </Function>
       </Schema>
     </edmx:StorageModels>
     <!-- CSDL content -->
@@ -30,9 +27,6 @@
         <EntityContainer Name="Lab4Entities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="LabMembers" EntityType="Lab4Model.LabMember" />
           <FunctionImport Name="FetchLabMemberByFirstName" EntitySet="LabMembers" ReturnType="Collection(Lab4Model.LabMember)">
-            <Parameter Name="FirstName" Mode="In" Type="String" />
-          </FunctionImport>
-          <FunctionImport Name="FetchOtherLabMemberExcludingFirstName" EntitySet="LabMembers" ReturnType="Collection(Lab4Model.LabMember)">
             <Parameter Name="FirstName" Mode="In" Type="String" />
           </FunctionImport>
         </EntityContainer>
@@ -60,7 +54,6 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <FunctionImportMapping FunctionImportName="FetchLabMemberByFirstName" FunctionName="Lab4Model.Store.FetchLabMemberByFirstName" />
-          <FunctionImportMapping FunctionImportName="FetchOtherLabMemberExcludingFirstName" FunctionName="Lab4Model.Store.FetchOtherLabMemberExcludingFirstName" />
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>
@@ -82,7 +75,7 @@
     <!-- Diagram content (shape and connector positions) -->
     <Diagrams>
       <Diagram Name="Lab4Model">
-        <EntityTypeShape EntityType="Lab4Model.LabMember" Width="1.5" PointX="0.75" PointY="0.75" Height="1.59568359375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Lab4Model.LabMember" Width="1.5" PointX="0.75" PointY="0.75" Height="1.6156835937500005" IsExpanded="true" />
       </Diagram>
     </Diagrams>
   </Designer>

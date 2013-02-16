@@ -5,6 +5,9 @@
     <FunctionImport Name="FetchLabMemberByFirstName" EntitySet="LabMembers" ReturnType="Collection(Lab4Model.LabMember)">
       <Parameter Name="FirstName" Mode="In" Type="String" />
     </FunctionImport>
+    <FunctionImport Name="FetchOtherLabMemberExcludingFirstName" EntitySet="LabMembers" ReturnType="Collection(Lab4Model.LabMember)">
+      <Parameter Name="FirstName" Mode="In" Type="String" />
+    </FunctionImport>
   </EntityContainer>
   <EntityType Name="LabMember">
     <Key>

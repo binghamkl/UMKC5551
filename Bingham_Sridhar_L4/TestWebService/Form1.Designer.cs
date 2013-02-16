@@ -32,12 +32,13 @@
             this.uxFirstName = new System.Windows.Forms.TextBox();
             this.uxNameLabel = new System.Windows.Forms.Label();
             this.uxNameList = new System.Windows.Forms.DataGridView();
+            this.uxExclude = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.uxNameList)).BeginInit();
             this.SuspendLayout();
             // 
             // uxSearch
             // 
-            this.uxSearch.Location = new System.Drawing.Point(324, 26);
+            this.uxSearch.Location = new System.Drawing.Point(267, 26);
             this.uxSearch.Name = "uxSearch";
             this.uxSearch.Size = new System.Drawing.Size(75, 23);
             this.uxSearch.TabIndex = 0;
@@ -47,7 +48,7 @@
             // 
             // uxFirstName
             // 
-            this.uxFirstName.Location = new System.Drawing.Point(148, 28);
+            this.uxFirstName.Location = new System.Drawing.Point(91, 26);
             this.uxFirstName.Name = "uxFirstName";
             this.uxFirstName.Size = new System.Drawing.Size(170, 20);
             this.uxFirstName.TabIndex = 1;
@@ -55,7 +56,7 @@
             // uxNameLabel
             // 
             this.uxNameLabel.AutoSize = true;
-            this.uxNameLabel.Location = new System.Drawing.Point(85, 31);
+            this.uxNameLabel.Location = new System.Drawing.Point(28, 28);
             this.uxNameLabel.Name = "uxNameLabel";
             this.uxNameLabel.Size = new System.Drawing.Size(57, 13);
             this.uxNameLabel.TabIndex = 2;
@@ -69,11 +70,22 @@
             this.uxNameList.Size = new System.Drawing.Size(576, 278);
             this.uxNameList.TabIndex = 3;
             // 
+            // uxExclude
+            // 
+            this.uxExclude.Location = new System.Drawing.Point(489, 28);
+            this.uxExclude.Name = "uxExclude";
+            this.uxExclude.Size = new System.Drawing.Size(75, 23);
+            this.uxExclude.TabIndex = 4;
+            this.uxExclude.Text = "Exclude";
+            this.uxExclude.UseVisualStyleBackColor = true;
+            this.uxExclude.Click += new System.EventHandler(this.uxExclude_Click);
+            // 
             // uxForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 345);
+            this.Controls.Add(this.uxExclude);
             this.Controls.Add(this.uxNameList);
             this.Controls.Add(this.uxNameLabel);
             this.Controls.Add(this.uxFirstName);
@@ -92,6 +104,7 @@
         private System.Windows.Forms.TextBox uxFirstName;
         private System.Windows.Forms.Label uxNameLabel;
         private System.Windows.Forms.DataGridView uxNameList;
+        private System.Windows.Forms.Button uxExclude;
     }
 }
 

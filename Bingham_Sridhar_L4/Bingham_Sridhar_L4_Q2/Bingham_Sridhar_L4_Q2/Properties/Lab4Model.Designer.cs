@@ -17,7 +17,7 @@ using System.Runtime.Serialization;
 using System.Xml.Serialization;
 
 [assembly: EdmSchemaAttribute()]
-namespace Bingham_Sridhar_L4_Q2
+namespace Bingham_Sridhar_L4_Q2.Properties
 {
     #region Contexts
     
@@ -133,44 +133,6 @@ namespace Bingham_Sridhar_L4_Q2
             }
     
             return base.ExecuteFunction<LabMember>("FetchLabMemberByFirstName", mergeOption, firstNameParameter);
-        }
-    
-        /// <summary>
-        /// No Metadata Documentation available.
-        /// </summary>
-        /// <param name="firstName">No Metadata Documentation available.</param>
-        public ObjectResult<LabMember> FetchOtherLabMemberExcludingFirstName(global::System.String firstName)
-        {
-            ObjectParameter firstNameParameter;
-            if (firstName != null)
-            {
-                firstNameParameter = new ObjectParameter("FirstName", firstName);
-            }
-            else
-            {
-                firstNameParameter = new ObjectParameter("FirstName", typeof(global::System.String));
-            }
-    
-            return base.ExecuteFunction<LabMember>("FetchOtherLabMemberExcludingFirstName", firstNameParameter);
-        }
-        /// <summary>
-        /// No Metadata Documentation available.
-        /// </summary>
-        /// <param name="mergeOption"></param>
-        /// <param name="firstName">No Metadata Documentation available.</param>
-        public ObjectResult<LabMember> FetchOtherLabMemberExcludingFirstName(global::System.String firstName, MergeOption mergeOption)
-        {
-            ObjectParameter firstNameParameter;
-            if (firstName != null)
-            {
-                firstNameParameter = new ObjectParameter("FirstName", firstName);
-            }
-            else
-            {
-                firstNameParameter = new ObjectParameter("FirstName", typeof(global::System.String));
-            }
-    
-            return base.ExecuteFunction<LabMember>("FetchOtherLabMemberExcludingFirstName", mergeOption, firstNameParameter);
         }
 
         #endregion
