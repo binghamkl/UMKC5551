@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bingham_Sridhar_L4_Q2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="SearchButton">Search Name</string>
+    <string name="SearchInputHint">Input Lab Member First Name</string>
+    <string name="WSURL">http://vhost1693.site1.compute.ihost.com/lab4/LabPartners.asmx</string>
+    <string name="LookupMembers">LookupOtherMembersFirstNames</string>
+    <string name="NAMESPACE">http://tempuri.org/</string>
+    <string name="LookupMembersFirstNameParameter">FirstName</string>
+    <string name="LookupLabel">Other Group Members</string>
+
+</resources>
